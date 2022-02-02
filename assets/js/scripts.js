@@ -242,13 +242,13 @@ jQuery(function ($) {
         // $f == Froogaloop
         var player = $f(iframe);
 
-        $('.modal').on('hidden.bs.modal', function () {
-        player.api('pause');
-        })
+        // $('.modal').on('hidden.bs.modal', function () {
+        // player.api('pause');
+        // })
 
-        $('.modal').on('shown.bs.modal', function () {
-        player.api('play');
-        })
+        // $('.modal').on('shown.bs.modal', function () {
+        // player.api('play');
+        // })
     }());
 
 
